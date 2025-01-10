@@ -32,30 +32,7 @@
   from {
     transform: rotate(0deg);
   }
-
   to {
     transform: rotate(360deg);
   }
-}
-
-#check {
-  margin-right: 15px;
-}
-
-#check1 {
-  margin-right: 15px;
-  border: 1px black solid;
-  background-color: green;
-}
-
-#check3 {
-  margin-right: 15px;
-  border: 1px black solid;
-  background-color: black;
-}
-
-#navbar {
-  background-color: #555555;
-  height: 35px;
-  align-content: center;
 }
