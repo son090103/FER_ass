@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+footer {
+  width: 100%;
+  background-color: orange;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body {
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.text {
+  margin-bottom: 15px;
+}
+
+.header {
+  background-color: #e67e22;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  width: 300px;
+  /* Điều chỉnh kích thước logo */
+  display: block;
+  margin: 0 auto;
+}
+
+.nav {
+  margin-top: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo-section {
+  flex: 1;
+}
+
+.logo {
+  width: 250px;
+}
+
+.info-section {
+  flex: 1;
+  text-align: right;
+  padding-right: 150px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.mobile {
+  font-size: 14px;
+  color: #333;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
