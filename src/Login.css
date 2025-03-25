@@ -1,0 +1,105 @@
+/* Thiết lập background tổng */
+#login {
+  background: #e0e0e0; /* Màu nền xám nhẹ */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container chính */
+.login-container {
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Form đăng nhập */
+.login-form {
+  flex: 1;
+  padding: 3rem;
+  background-color: #ffffff;
+}
+
+.login-form h2 {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Ô input */
+.login-form .form-control {
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.login-form .form-control:focus {
+  box-shadow: none;
+  border-color: #28a745;
+}
+
+/* Nút đăng nhập */
+.login-form .btn {
+  background-color: #28a745;
+  border-color: #28a745;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.login-form .btn:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+/* Phần chào mừng */
+.welcome-section {
+  flex: 1;
+  background: linear-gradient(135deg, #28a745, #218838);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3rem;
+}
+
+.welcome-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.welcome-section p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.welcome-section a {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* Nút đăng nhập với mạng xã hội */
+.social-login {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.social-login img {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-login img:hover {
+  transform: scale(1.1);
+}

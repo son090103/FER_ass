@@ -1,6 +1,48 @@
 .App {
   text-align: center;
 }
+.hover-card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.carousel-img {
+  height: 400px; /* Điều chỉnh chiều cao ảnh */
+  object-fit: cover; /* Đảm bảo ảnh không bị méo */
+}
+
+.card-img-top {
+  height: 200px;  /* Đặt chiều cao cố định */
+  object-fit: cover; /* Giữ tỷ lệ ảnh, cắt bớt phần thừa */
+}
+
+.hover-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+/* Tạo hiệu ứng cuộn ngang */
+.horizontal-scroll {
+  padding: 10px;
+  white-space: nowrap;
+  scrollbar-width: thin; /* Dành cho Firefox */
+  -ms-overflow-style: none; /* Ẩn scrollbar trên IE/Edge */
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+
+.horizontal-scroll::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}
+
+.hover-card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.hover-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
 
 .App-logo {
   height: 40vmin;

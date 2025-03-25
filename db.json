@@ -1,0 +1,175 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "Nhà Giả Kim",
+      "price": 100000,
+      "image": "https://simg.zalopay.com.vn/zlp-website/assets/sach_hay_nen_doc_nha_gia_kim_ea63da0d8f.jpeg",
+      "description": "Một câu chuyện đầy cảm hứng về hành trình theo đuổi giấc mơ.",
+      "comments": [
+        {
+          "username": "son",
+          "name": "son",
+          "content": "Sách rất hay và bổ ích",
+          "rating": 5,
+          "date": "2025-03-24T17:48:41.782Z"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Bài giảng cuối cùng",
+      "price": 150000,
+      "image": "https://cellphones.com.vn/sforum/wp-content/uploads/2023/10/sach-hay-22.jpg",
+      "description": "Bài học cuộc sống từ một giáo sư vĩ đại trong những ngày cuối đời."
+    },
+    {
+      "id": "3",
+      "title": "Đời ngắn đừng ngủ dài",
+      "price": 200000,
+      "image": "https://static.oreka.vn/wp-content/uploads/2024/09/19183439/nhung-quyen-sach-hay-ve-cuoc-song.jpg",
+      "description": "Những câu chuyện truyền cảm hứng giúp bạn sống ý nghĩa hơn mỗi ngày."
+    },
+    {
+      "id": "4",
+      "title": "Tôi đi học",
+      "price": 250000,
+      "image": "https://cbqqo.edu.vn/storage/app/public/photos/3/5e51ed485ef00.jpg",
+      "description": "Một tác phẩm văn học Việt Nam đầy hoài niệm về tuổi thơ và trường học."
+    },
+    {
+      "id": "5",
+      "title": "The One Thing",
+      "price": 300000,
+      "image": "https://career.gpo.vn/uploads/images/22s.gif",
+      "description": "Bí quyết thành công bằng cách tập trung vào điều quan trọng nhất."
+    },
+    {
+      "id": "6",
+      "title": "150 Thuật Ngữ Văn Học",
+      "price": 100000,
+      "image": "https://ts2.mm.bing.net/th?id=OIP.6BhjTv_J48YSMIR2RY3GlwHaHa&pid=15.1",
+      "description": "Một câu chuyện đầy cảm hứng về hành trình theo đuổi giấc mơ."
+    }
+  ],
+  "accounts": [
+    {
+      "id": "1",
+      "name": "son",
+      "username": "son",
+      "password": "123456789",
+      "phone": "0123456789",
+      "cart": [
+        {
+          "id": "1",
+          "title": "Nhà Giả Kim",
+          "price": 100000,
+          "image": "https://simg.zalopay.com.vn/zlp-website/assets/sach_hay_nen_doc_nha_gia_kim_ea63da0d8f.jpeg",
+          "quantity": 1
+        }
+      ],
+      "orders": [
+        {
+          "id": "1742825113285",
+          "items": [
+            {
+              "id": "4",
+              "title": "Tôi đi học",
+              "price": 250000,
+              "image": "https://cbqqo.edu.vn/storage/app/public/photos/3/5e51ed485ef00.jpg",
+              "quantity": 1
+            }
+          ],
+          "total": 250000,
+          "date": "2025-03-24T14:05:13.285Z",
+          "status": "Đang giao"
+        },
+        {
+          "id": "1742825337354",
+          "items": [
+            {
+              "id": "1",
+              "title": "Nhà Giả Kim",
+              "price": 100000,
+              "image": "https://simg.zalopay.com.vn/zlp-website/assets/sach_hay_nen_doc_nha_gia_kim_ea63da0d8f.jpeg",
+              "quantity": 1
+            }
+          ],
+          "total": 100000,
+          "date": "2025-03-24T14:08:57.354Z",
+          "status": "Đang giao"
+        },
+        {
+          "id": "1742825520102",
+          "items": [
+            {
+              "id": "3",
+              "title": "Đời ngắn đừng ngủ dài",
+              "price": 200000,
+              "image": "https://static.oreka.vn/wp-content/uploads/2024/09/19183439/nhung-quyen-sach-hay-ve-cuoc-song.jpg",
+              "quantity": 2
+            }
+          ],
+          "total": 400000,
+          "date": "2025-03-24T14:12:00.102Z",
+          "status": "Đang giao"
+        }
+      ],
+      "userComments": [
+        {
+          "bookId": "7",
+          "bookTitle": "Sách hay ",
+          "content": "Sách rất bổ ích ",
+          "rating": 5,
+          "date": "2025-03-24T16:33:51.239Z"
+        },
+        {
+          "bookId": "1",
+          "bookTitle": "Nhà Giả Kim",
+          "content": "Sách rất hay và bổ ích",
+          "rating": 5,
+          "date": "2025-03-24T17:48:41.782Z"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "nguyet1",
+      "username": "nguyet",
+      "password": "123456789",
+      "phone": "0123456789",
+      "cart": [
+        {
+          "id": "3",
+          "title": "Đời ngắn đừng ngủ dài",
+          "price": 200000,
+          "image": "https://static.oreka.vn/wp-content/uploads/2024/09/19183439/nhung-quyen-sach-hay-ve-cuoc-song.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "1",
+          "title": "Nhà Giả Kim",
+          "price": 100000,
+          "image": "https://simg.zalopay.com.vn/zlp-website/assets/sach_hay_nen_doc_nha_gia_kim_ea63da0d8f.jpeg",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "manh",
+      "username": "manh",
+      "password": "123456789",
+      "phone": "0123456789",
+      "cart": [
+        {
+          "id": "3",
+          "title": "Đời ngắn đừng ngủ dài",
+          "price": 200000,
+          "image": "https://static.oreka.vn/wp-content/uploads/2024/09/19183439/nhung-quyen-sach-hay-ve-cuoc-song.jpg",
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}
